@@ -21,3 +21,10 @@ base = list(range(1, 11))
 
 print(base)
 
+# Iterable (percorriveis)
+
+# para cada numero em numeros:
+for numero in numeros:
+    print("Tabuada do:", numero)
+    for outro_numero in numeros:
+        print(numero * outro_numero)
