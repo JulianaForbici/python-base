@@ -7,8 +7,8 @@ for i in range(num_operacoes):
     num1 = float(input("Digite o 1 número: "))
     operador = input("Digite o operador (+, -, *, /): ")
     num2 = float(input("Digite o 2 número: "))
-  
-   if operador == '+':
+ 
+    if operador == '+':
         resultado = num1 + num2
     elif operador == '-':
         resultado = num1 - num2
@@ -18,8 +18,8 @@ for i in range(num_operacoes):
         if num2 != 0:
             resultado = num1 / num2
         else:
-            resultado = "Erro!"
+            resultado = "Erro! Divisão por zero não é permitida."
     else:
-        resultado = "Digite novamente!!!"
+        resultado = "Erro! Operador inválido."
     
     print(f"Resultado: {resultado}")
